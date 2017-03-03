@@ -1,8 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
 
+body {
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+}
 .spacer {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
    flex: 1 1 auto;
+}
+.red-color {
+  color: red;
+}
+#page-padding {
+  padding: 0 1.5em 1.5em 1.5em;
 }
